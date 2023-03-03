@@ -1,0 +1,14 @@
+<suite name="Insurance Demo" verbose="10">
+
+
+    <test name="basic test" preserve-order="true">
+        <classes>
+            <class name="org.learn.spring.selenium.InsuranceSuiteTest">
+              <!--  <methods>
+                    <include name="insurancecustomer" />
+                    <include name="customersavetest" />
+                </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>
