@@ -5,7 +5,7 @@ Prerequisites
 
 Database
 --
-    Modify pom.xml to use the required jdbc drier
+    Modify pom.xml to use the required jdbc driver
     If using different database replace properties
     in project_home/src/main/resources/application.properties
 ```
