@@ -5,6 +5,7 @@ Prerequisites
 
 Database
 --
+    Modify pom.xml to use the required jdbc drier
     If using different database replace properties
     in project_home/src/main/resources/application.properties
 ```
@@ -26,6 +27,7 @@ Build Application
         mvn clean install
 Run Application
 --
+    Make sure the database server you have chosen is running
     From the project folder
         java -jar target/learn-spring.jar
 
