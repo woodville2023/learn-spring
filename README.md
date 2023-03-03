@@ -27,6 +27,6 @@ Build Application
 Run Application
 --
     From the project folder
-        java -jar target/demo.jar
+        java -jar target/learn-spring.jar
 
 
