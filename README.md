@@ -1,6 +1,7 @@
 Prerequisites
 --
     Java Developoment Kit 11 higher
+    
     Apache Maven 3.8.4 or higher
 
 Database
@@ -24,11 +25,13 @@ Database
 Build Application
 --
     From the project folder
-        mvn clean install
+        mvn clean install -DskipTests=true
 Run Application
 --
     Make sure the database server you have chosen is running
     From the project folder
-        java -jar target/learn-spring.jar
+        #this will run the server in port 8080 --server.port={someotherportnumber}
+        #if needed to run on a different port no pass argument
+        java -jar target/learn-spring.jar --server.port=8080
 
 
