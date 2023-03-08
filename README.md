@@ -30,8 +30,8 @@ Run Application
 --
     Make sure the database server you have chosen is running
     From the project folder
-        #this will run the server in port 8080 --server.port={someotherportnumber}
-        #if needed to run on a different port no pass argument
+        #this will run the server in port 8080 
+        #if needed to run on a different port no. change 8080 to something else
         java -jar target/learn-spring.jar --server.port=8080
 
 
